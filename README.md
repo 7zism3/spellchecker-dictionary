@@ -23,7 +23,7 @@ Script sẽ tự động:
 - Copy vào thư mục `options` của **tất cả** JetBrains IDE đang có trên máy
 - Khởi động lại IDE để áp dụng
 
-### 🔧 Thủ công
+### 🔧 Thủ công (copy file)
 
 1. Tải file `spellchecker-dictionary.xml` về máy
 2. Copy vào thư mục tương ứng với IDE bạn dùng:
@@ -36,6 +36,14 @@ C:\Users\<tên>\AppData\Roaming\JetBrains\PyCharm2025.3\options\
 ```
 
 3. Khởi động lại IDE
+
+### 🖱️ Thủ công (qua UI)
+
+1. Tải file `vi_VN.dic` về máy
+2. Mở JetBrains IDE → **Settings** (`Ctrl + Alt + S`)
+3. Vào **Editor** → **Natural Languages** → **Spelling**
+4. Trong phần **Custom dictionaries**, nhấn **+** và chọn file `vi_VN.dic` vừa tải
+5. Nhấn **OK** → áp dụng ngay, không cần khởi động lại
 
 ## Nội dung từ điển
 
